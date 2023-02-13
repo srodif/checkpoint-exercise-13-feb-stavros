@@ -9,11 +9,6 @@ const port = 3001;
 app.use(cors());
 app.use(express.json());
 
-
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
-
 app.get('/api/posts', getAll)
 app.post('/api/posts', create)
 app.put('/api/posts/:id', updateById)
