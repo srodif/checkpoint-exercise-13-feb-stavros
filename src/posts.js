@@ -20,9 +20,6 @@ export class Posts extends React.Component{
             this.setState()
         )
     }
-
-
-
     
     render() {
 
